@@ -5,3 +5,8 @@ function suma(){
   var val4=parseInt(document.getElementById("N4").value);
   alert(val1+val2+val3+val4);
 }
+
+function alerta(){
+  var text=document.getElementById("TextToAlert").value;
+  alert(text);
+}
